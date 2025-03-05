@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohan Babu University</title>
+    <script src="https://kit.fontawesome.com/5368e641d8.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            background-color: rgba(255, 255, 255, 0.333);
+        }
+        i{
+            margin-left: 30px;
+        }
+        .top-menu{
+            display: flex;
+            flex-direction: row;
+            margin-right: -70px;
+            cursor: pointer;
+        }
+        .up{
+            margin-left: -8px;
+            margin-top: -8px;
+            width: 1519px;
+            background-color: rgba(214, 13, 13, 0.868);
+            display: flex;
+            justify-content: space-around;
+            height: 50px;
+            
+        }
+        .top{
+            padding-top: 18px;
+            margin-left: -160px;
+            cursor: pointer;
+        }
+        .pa{
+            padding: 8px;
+            padding-left: 30px;
+            color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 12px;
+        }
+        .logo_c{
+            color: black;
+            display: flex;
+            padding: 30px;
+            margin-right: 100px;
+            cursor: pointer;
+        }
+        .logo_a{
+            display: flex;
+            justify-content: space-around;
+        }
+        .pu{
+            margin-left: 20px;
+            font-size: 20px;
+        }
+        @keyframes blink{
+            0%,100%{
+                opacity: 1;
+            }
+            50%{
+                opacity: 0;
+            }
+        }
+        .b{
+            animation: blink 2s infinite;   
+        }
+        @keyframes image{
+            from{
+                transform: scale(1.0);
+            }
+            to{
+                transform: scale(1.5) translateY(-10%);
+            }
+        }
+        .college{
+            animation-name: image;
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
+            transform-origin: center;
+            width: 100%;
+            height: 600px;
+            filter: brightness(0.6);
+        }
+        .con{
+            overflow: hidden;
+            width: 1519px;
+            margin-left: -8px;
+        }
+        .image-text{
+            position: absolute;
+            margin-top: -530px;
+            margin-left: 150px;
+        }
+        .know{
+            background-color:#FECC16;
+            width: 140px;
+            border-radius: 8px;
+            padding: 14px;
+            text-align: center;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .rankings{
+            background-color: rgba(245, 247, 249, 0.534);
+            padding: 30px;
+            display: flex;
+        }
+        .r{
+            margin-left: 100px;
+            font-size: 20px;
+
+        }
+        .rating-images{
+            margin-left: 120px;
+            margin-right: 100px;
+        }
+        .m{
+            display: flex;
+            margin-top: 50px;
+        }
+        .mb{
+            margin-left: 80px;
+            margin-right: 80px;
+        }
+        .more{
+            display: flex;
+            justify-content: space-between;
+        }
+        #play{
+            color: white;
+            font-size: 100px;
+            padding: 10px;
+            animation-name: playa;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes playa{
+            from{
+                transform: scale(0.8);
+                opacity: 0.8;
+            }
+            to{
+                transform: scale(1.5);
+                opacity: 0;
+            }
+        }
+        .wave{
+            display: flex;
+            justify-content: center;
+            margin-top: -200px;
+            
+        }
+        .pro{
+            background-color: #FECC16;
+            width: 200px;
+            margin-top: -20px;
+            padding: 10px;
+            font-size: 28px;
+            text-align: center;
+        }
+        .exp:hover{
+            background-color: #FECC16;
+        }
+        .knows:hover{
+            cursor: pointer;
+        }
+        .mar{
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            margin: 10px;
+            box-shadow: 10px 0px 0px 0px rgba(0, 0, 0, 0.025);
+            padding: 10px;
+        }
+        .h:hover{
+            background-color: #FECC16;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        .layout{
+            margin-top: -420px;
+            position: absolute;
+            color: white;
+            margin-left: 390px;
+        }
+        .gallery{
+            width: 490px;
+            height: 300px;
+            margin: 5px;
+        }
+        .ab{
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .ab:hover{
+            color: #FECC16;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: rgba(255, 255, 255, 0.333);">
+    <div class="up">
+    <div class="top">
+    <i class="fa-brands fa-facebook-f" style="color: white;"></i>
+    <i class="fa-brands fa-instagram" style="color: white;"></i>
+    <i class="fa-brands fa-linkedin-in" style="color: white;"></i>
+    <i class="fa-brands fa-twitter" style="color: white;"></i>
+    </div>
+    <div class="top-menu">
+        <p class="pa">STUDENTS</p>
+        <p class="pa">STAFF</p>
+        <p class="pa">ALUMNI</p>
+        <p class="pa">NEWS</p>
+        <p class="pa">EVENTS</p>
+        <p class="pa">MEDIA</p>
+        <p class="pa">CONTACT US</p>
+    </div>
+    </div>
+    <div class="logo_a">
+    <div class="logo_b" style="margin-top: 10px;">
+    <img src="mbu logo.webp" alt="mbu" width="160px" style="cursor: pointer;">
+    </div>
+    <div class="logo_c">
+    <p class="pu">About Us</p>
+    <p class="pu">Academics</p>
+    <p class="pu">Admissions</p>
+    <p class="pu">Research</p>
+    <p class="pu">Placements</p>
+    <p class="pu">Campus Life</p>
+    <p class="pu">Careers</p>
+    <i class="fa-solid fa-magnifying-glass" class="pu" style="margin-top: 22px; margin-left: 60px; font-size: 20px; cursor: pointer;"></i>
+    </div>
+    </div>
+    <div class="con">
+    <img src="pl-1.jpg" class="college">
+    </div>
+    <div class="image-text">
+    <h2 style="color: #FECC16; font-size: 50px;">Welcome To</h2>
+    <h1 style="color: white; font-size: 60px; margin-top: -40px;">Mohan Babu <span class="b">University</span></h1>
+    <p style="color: white; margin-top: -20px;">32 Years of Unwavering Trust, 1 Universe of Possibilities.</p><br><br>
+    <div class="know">
+        <span>Know More</span>
+    </div>
+    </div>
+    <div class="rankings">
+    <div class="r">
+    <h3>Rankings and<br>accreditations</h3>
+    <p style="color: #d10910; cursor: pointer;" class="r-a">Learn More<i class="fa-solid fa-circle-chevron-right" style="margin-left: 3px; padding-top: 2px;"></i></p></div>
+    <div class="rating-images">
+    <marquee behavior="" direction="left" scrollamount="12">
+        <img src="aicte.jpg" alt="1" width="140px">
+        <img src="a+.jpg" alt="2" width="140px">
+        <img src="guage.jpg" alt="3" width="140px">
+        <img src="inno.jpg" alt="4" width="140px">
+        <img src="nba.jpg" alt="5" width="140px">
+        <img src="pharma.jpg" alt="6" width="140px">
+        <img src="sus.jpg" alt="7" width="140px">
+        <img src="diamond.jpg" alt="8" width="140px">
+        <img src="framework.jpg" alt="9" width="140px">
+        <img src="council.jpg" alt="10" width="140px">
+        <img src="aicte.jpg" alt="1" width="140px">
+        <img src="a+.jpg" alt="2" width="140px">
+        <img src="guage.jpg" alt="3" width="140px">
+        <img src="inno.jpg" alt="4" width="140px">
+        <img src="nba.jpg" alt="5" width="140px">
+        <img src="pharma.jpg" alt="6" width="140px">
+        <img src="sus.jpg" alt="7" width="140px">
+        <img src="diamond.jpg" alt="8" width="140px">
+        <img src="framework.jpg" alt="9" width="140px">
+        <img src="council.jpg" alt="10" width="140px">
+    </marquee>
+    </div>
+    </div>
+    <div class="m">
+    <div class="ma">
+    <img src="mohanbabu.jpg" alt="mohanbabu" width="600px" height="450px" style="margin-left: 130px;"></div>
+    <div class="mb">
+    <h2 style="color: #d10910; font-size: 25px;">32 YEARS OF UNWAVERING TRUST,1 UNIVERSE OF POSSIBILITIES</h2>
+    <p style="font-size: 18px;">From a young village boy to a teacher, actor, producer, writer, Member of Parliament, philanthropist, and an educationist – it has been three decades of serving my people. Yet, every moment of this enchanting journey remains <br>fresh in my mind.<br><br>
+        At heart, I am still that dreamer from Modhugulapalem who followed his <br>father’s footsteps to become an educator. A proud son of a dedicated school <br>headmaster, it humbles me to have continued his legacy, first as a teacher <br>myself and then as the Chairman of the renowned Sree Vidyanikethan <br>Educational Trust (SVET). Since its inception in 1992, the seed of SVET has <br>flourished into a large Kalpavriksha – helping thousands of young learners <br>fulfill their aspirations.</p>
+    <div class="more">
+    <div style="width: 150px; text-align: center;">
+    <p style="background-color: #FECC16; padding: 15px; border-radius: 5px;" class="knows"><b>Know More</b></p></div>
+    <div>
+    <p style="background-color:#d10910; padding: 15px; border-radius: 5px; color: white; margin-right: 50px;"><b>Download brochure</b></p></div>
+    </div>
+    </div>
+    </div>
+    
+
+    <div style="margin-top: 80px;">
+        <img src="hari.jpeg" alt="" width="1519px" height="550px" style="margin-left: -8px;">
+        <div style="width: 1519px; height: 550px; background-color: #d10910; position: absolute; margin-top: -555px; margin-left: -8px; opacity: 0.8;"></div>
+        <div class="layout">
+            <h1 style="text-align: center;">
+                We Believe That Education is
+                <br>An Important Aspect in Every Person's Life
+            </h1>
+            <p style="text-align: center;">Ranked in the 150-200 band of NIRF Rankings and the 51-100 band for NIRF Innovation Ranking, it has also <br>secured the coveted Diamond band in the QS-IGauge. Its academic prowess is further validated by NAAC <br>A+ and NBA accreditations, along with a platinum category distinction in the AICTE-CII survey.</p>
+            </div>
+        <div class="wave">
+            <i class="fa-solid fa-circle-play" id="play"></i>
+        </div>
+        </div>
+
+    <div style="display: flex; margin-top: 120px;">
+        <div>
+        <h2 style="color: #d10910; font-size: 35px; margin-left: 100px;">Our programs</h2>
+        <div style="width: 50px; height: 4px; background-color: #FECC16; margin-left: 102px; margin-top: -10px;" class="knows">
+        </div>
+        </div>
+        <div>
+        <p style="margin-left:300px; color: rgba(0, 0, 0, 0.737); font-size: 18px;">Explore a diverse array of cutting-edge courses at Mohan Babu University, where academic <br>excellence meets real-world relevance. From innovative technology programs to dynamic <br>business courses, our curriculum is designed to dream big and achieve bigger.</p></div>
+    </div>
+    <div style="display: flex; justify-content: space-evenly; margin-top: 30px; margin-left: 80px; margin-right: 80px; font-family:serif;">
+        <div style="width: 370px; background-color: white; padding-left: 50px; border: none; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.107);">
+            <img src="placement1.jpg" alt="" style="margin-left: -50px;" width="420px" height="250px">
+            <h1 style="color: #d10910; font-size: 28px;">School of computing</h1>
+            <p style="margin-right: 20px; font-size: 17px;">MB School of Computing is committed to <br>research, undertaking projects funded by various <br>agencies including DST, INUP, ISRO RESPOND, <br>and UGC.</p>
+            <div style="width: 150px; text-align: center; padding-top: 15px;">
+            <p style="background-color: #FECC16; padding: 15px; border-radius: 5px;" class="knows"><b>Know More</b></p>
+            </div>
+        </div>
+        <div style="width: 370px; background-color: white; padding-left: 50px; border: none; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.107);">
+            <img src="placement2.jpg" alt="" style="margin-left: -50px;" width="420px" height="250px">
+            <h1 style="color: #d10910; font-size: 28px;">School of Engineering</h1>
+            <p style="margin-right: 20px; font-size: 17px;">MB School of Engineering is committed to <br>research, undertaking projects funded by various <br>agencies including DST, INUP, ISRO RESPOND,<br> and UGC.</p>
+            <div style="width: 150px; text-align: center; padding-top: 15px;">
+            <p style="background-color: #FECC16; padding: 15px; border-radius: 5px;" class="knows"><b>Know More</b></p>
+            </div>
+        </div>
+        <div style="width: 370px; background-color: white; padding-left: 50px; border: none; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.107);">
+            <img src="placement3.jpg" alt="" style="margin-left: -50px;" width="420px" height="250px">
+            <h1 style="color: #d10910; font-size: 28px;">School of Commerce And Management</h1>
+            <p style="margin-right: 20px; font-size: 17px;">The School of Commerce and Management <br>stands as an inspiration for academic excellence,<br> cultivating future leaders in the dynamic...</p>
+            <div style="width: 150px; text-align: center; padding-top: 5px;">
+            <p style="background-color: #FECC16; padding: 15px; border-radius: 5px;" class="knows"><b>Know More</b></p>
+            </div>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: space-evenly; margin-top: 30px; margin-left: 80px; margin-right: 80px;">
+        <div style="width: 370px; background-color: white; padding-left: 50px; border: none; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.107);">
+            <img src="paramedical2.jpg" alt="" style="margin-left: -50px;" width="420px" height="250px">
+            <h1 style="color: #d10910; font-size: 28px;">School of Pharmaceutical Sciences</h1>
+            <p style="margin-right: 20px; font-size: 17px;">MB School of Pharmaceutical Sciences provides <br>excellent opportunities for aspiring pharmacists <br>in both pharmaceutical industries and healthcare <br>multinational corporations in India.</p>
+            <div style="width: 150px; text-align: center; padding-top: 15px;">
+            <p style="background-color: #FECC16; padding: 15px; border-radius: 5px;" class="knows"><b>Know More</b></p>
+            </div>
+        </div>
+        <div style="width: 370px; background-color: white; padding-left: 50px; border: none; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.107);">
+            <img src="paramedical1.jpg" alt="" style="margin-left: -50px;" width="420px" height="250px">
+            <h1 style="color: #d10910; font-size: 28px;">School of Paramedical Allied & HealthCare Sciences</h1>
+            <p style="margin-right: 20px; font-size: 17px;">The School of Paramedical and Allied Health <br>Sciences at Mohan Babu University was <br>established with the objective to produce well-<br>trained paramedical and allied health..</p>
+            <div style="width: 150px; text-align: center; padding-top: 15px;">
+            <p style="background-color: #FECC16; padding: 15px; border-radius: 5px;" class="knows"><b>Know More</b></p>
+            </div>
+        </div>
+        <div style="width: 370px; background-color: white; padding-left: 50px; border: none; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.107);">
+            <img src="agri1.jpg" alt="" style="margin-left: -50px;" width="420px" height="250px">
+            <h1 style="color: #d10910; font-size: 28px;">School of Agriculture</h1>
+            <p style="margin-right: 20px; font-size: 17px;">School of Agriculture aims to bring new <br>paradigms in learning various sciences and <br>technologies embraced in the field of agriculture <br>and allied fields like Horticulture, Agribusiness <br>Management, Animal Husbandry, Food Science..</p>
+            <div style="width: 150px; text-align: center; padding-top: 27px;">
+            <p style="background-color: #FECC16; padding: 15px; border-radius: 5px;" class="knows"><b>Know More</b></p>
+            </div>
+        </div>
+    </div>
+    <div style="display: flex; margin-top: 40px; justify-content: center;">
+    <div style="border: 1px solid rgba(0, 0, 0, 0.169); padding: 20px; width: 390px;" class="exp">
+        <div>
+            <h1 class="pro">50+ Programs</h1>
+        </div>
+        <p style="padding-top: 20px; font-size: 18px;">Explore wide-range of industry focused and <br>essential programs.</p>
+        <div style="width: 50px; height: 4px; background-color: #FECC16;">
+        </div>
+    </div>
+    <div style="border: 1px solid  rgba(0, 0, 0, 0.169); padding: 20px; width: 390px;" class="exp">
+        <div>
+            <h1 class="pro">Best Faculty</h1>
+        </div>
+        <p style="padding-top: 20px; font-size: 18px;">Learn from the best experts and professors of the <br>subjects.</p>
+        <div style="width: 50px; height: 4px; background-color: #FECC16;">
+        </div>
+    </div>
+    <div style="border: 1px solid  rgba(0, 0, 0, 0.169); padding: 20px; width: 390px;" class="exp">
+        <div>
+            <h1 class="pro" style="width: 230px;">Top in Placements</h1>
+        </div>
+        <p style="padding-top: 20px; font-size: 18px;">Career Development Centre engaged with over <br>110+ companies.</p>
+        <div style="width: 50px; height: 4px; background-color: #FECC16;">
+        </div>
+    </div>
+    </div>
+    <div style="margin-top: 80px;">
+        <img src="graduate.jpg" alt="" width="1519px" height="600px" style="margin-left: -8px;">
+        <div style="width: 1519px; height: 600px; background-color: #d10910; position: absolute; margin-top: -605px; margin-left: -8px; opacity: 0.8;"></div>
+        <div style="margin-top: -80px; margin-left: 100px;">
+            <h1 style="color: #FECC16; position: absolute; margin-top: -420px; font-size: 38px;">Admission Open 2024</h1>
+            <p style="color: white; position: absolute; margin-top: -340px; font-size: 18px;">Step into your future with MBU!
+                Explore our diverse range of over 50 programs designed to <br>prepare you for success in tomorrow’s world. At Mohan Babu University, we provide <br>unparalleled resources, from world-class infrastructure to research-driven faculty, ensuring <br>you have every opportunity to excel. Our vibrant campus and dynamic environment foster a <br>lifelong journey of learning and growth. With amazing placements and career opportunities <br>awaiting our graduates, you can be confident in your path to success. Discover the perfect fit <br>for your ambitions among our Undergraduate, Postgraduate, and Doctoral programs across <br>various schools. Your bright tomorrow starts here at Mohan Babu University.</p>
+                <div style="width: 150px; text-align: center; margin-top: -130px; position:absolute;">
+                <p style="background-color: #FECC16; padding: 15px; border-radius: 5px;" class="knows"><b>More About Us</b></p>
+                </div>
+        </div>
+    </div>
+    <div style="margin-top: 150px; display: flex; justify-content: space-around;">
+        <img src="lib.webp" alt="" width="650px" height="400px">
+        <div style="margin-left: -100px;">
+            <div style="border: 1px solid black; width: 220px; text-align: center; padding: 4px; letter-spacing: 1px;">
+                LEADER IN EDUCATION
+            </div>
+            <h1>A good education is a foundation <br>for a better future</h1>
+            <p>From innovative technology programs to dynamic business courses, our <br>curriculum is designed to dream big and achieve bigger.</p>
+            <div style="display: flex; margin-left: -30px;">
+            <div>
+                <p style="font-size: 18px;"><i class="fa-solid fa-circle-check" style="color: #d10910;"></i> Graduate Programs</p>
+                <p style="font-size: 18px;"><i class="fa-solid fa-circle-check" style="color: #d10910;"></i> Post Graduate Programs</p>
+                <p style="font-size: 18px;"><i class="fa-solid fa-circle-check" style="color: #d10910;"></i> Doctural Degrees</p>
+            </div>
+            <div>
+                <p style="font-size: 18px;"><i class="fa-solid fa-circle-check" style="color: #d10910;"></i> International Hubs</p>
+                <p style="font-size: 18px;"><i class="fa-solid fa-circle-check" style="color: #d10910;"></i> Global Students</p>
+                <p style="font-size: 18px;"><i class="fa-solid fa-circle-check" style="color: #d10910;"></i> Alumni & Others</p>
+            </div>
+            </div><br>
+            <div style="width: 150px; text-align: center; margin-top: -20px;">
+            <p style="background-color: #FECC16; padding: 15px; border-radius: 5px;" class="knows"><b>More About Us</b></p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div style="margin-top: 80px;">
+        <img src="graduates.webp" alt="" width="1519px" height="600px" style="margin-left: -8px;">
+        <div style="width: 1519px; height: 600px; background-color: #d10910; position: absolute; margin-top: -605px; margin-left: -8px; opacity: 0.9;"></div>
+        <img src="Map-1-1.png" alt="" width="600px" style="position: absolute; margin-top: -460px; margin-left: 100px; opacity: 0.4;">
+        <div style="position: absolute; margin-top: -500px;margin-left: 750px; color: white;">
+        <div style="border: 1px solid white; width: 220px; text-align: center; padding: 4px; letter-spacing: 1px;">
+            LEADER IN EDUCATION
+        </div>
+        <h1 style="font-size: 38px;">Global Academic <br>Collaborations</h1>
+        <p style="font-size: 18px;">Mohan Babu University has established collaborations with renowned institutions worldwide, <br>including Penn State University(USA), University of Wisconsin (USA), RWTH Aachen (Germany), <br>Wayne State University (USA), Virginia Commonwealth University (USA), University of Pitesti <br>(Romania), and Asia University (Taiwan). These collaborations facilitate student exchange and study <br>abroad programs, enhancing sthe educational experience for our students.</p>
+        </div>
+        </div>
+        <div style="text-align: center; margin-top: 40px;">
+            <h1 style="color: #d10910; font-size: 38px;">Placement Partners</h1>
+            <div style="width: 50px; height: 4px; background-color: #FECC16; margin-left: 700px; margin-top: -10px;">
+            </div>
+            <p style="font-size: 18px;">In the year 2022-23, the Career Development Centre engaged with over 110+ companies on campus for placements. <br>The highest offer was 60 lakhs per annum by Google, followed by Amazon’s offer of 44 lakhs per annum.</p>
+        </div>
+        <marquee behavior="" direction="left" scrollamount="15" style="margin-left: 150px; margin-right: 150px;">
+            <div>
+            <img src="amazon.jpg" alt="a" width="150px" height="150px" class="mar">
+            <img src="google.png" alt="b" width="150px" height="150px" class="mar">
+            <img src="cogni.avif" alt="c" width="150px" height="150px" class="mar">
+            <img src="tech.png" alt="d" width="150px" height="150px" class="mar">
+            <img src="deloitte.webp" alt="e" width="150px" height="150px" class="mar">
+            <img src="tcs.avif" alt="" width="150px" height="150px" class="mar">
+            <img src="amazon.jpg" alt="a" width="150px" height="150px" class="mar">
+            <img src="google.png" alt="b" width="150px" height="150px" class="mar">
+            <img src="cogni.avif" alt="c" width="150px" height="150px" class="mar">
+            <img src="tech.png" alt="d" width="150px" height="150px" class="mar">
+            <img src="deloitte.webp" alt="e" width="150px" height="150px" class="mar">
+            <img src="tcs.avif" alt="" width="150px" height="150px" class="mar">
+            </div>
+        </marquee>
+        <div style="margin-top: 40px;">
+            <div style="width: 1519px; height: 600px; background-color: #d10910; margin-left: -8px; opacity: 0.9;">
+                <div style="display: flex; justify-content: space-between;">
+                <h1 style="color: white; font-size: 38px; margin-left: 110px;">Latest News</h1>
+                <div style="width: 150px; text-align: center; margin-right: 490px;">
+                <p style="background-color: #FECC16; padding: 15px; border-radius: 5px; margin-top: 30px;" class="knows"><b>View all</b></p>
+                </div>
+                </div>
+                <div style="display: flex;">
+                <div style="display: flex; margin-left: 100px; margin-top: -10px;">
+                    <div style="border: none; width: 300px; height: 440px; background-color: white; margin: 7px; border-radius: 5px;">
+                        <img src="event1.jpg" alt="" width="300px" style="border-top-left-radius: 5px; border-top-right-radius: 5px;">
+                        <h1 style="font-size: 22px; margin-left: 40px; margin-top: 25px;">
+                            Mohan Babu University <br>Launches High-Altitude <br>Balloon Satellite in <br>Collaboration with <br>NARL
+                        </h1>
+                        <p style="margin-left: 40px; font-size: 15px; color: #d10910;">READ MORE >></p>
+                    </div>
+                    <div style="border: none; width: 300px; background-color: white; margin: 7px; border-radius: 5px;">
+                        <img src="event2.jpg" alt="" width="300px" style="border-top-left-radius: 5px; border-top-right-radius: 5px;">
+                        <h1 style="font-size: 22px; margin-left: 40px; margin-top: 25px;">
+                            Mohan Babu University Hosts Spectacular Annual Sports Day
+                        </h1>
+                        <p style="margin-left: 40px; font-size: 15px; color: #d10910; margin-top: 20px;">READ MORE >></p>
+                    </div>
+                    <div style="border: none; width: 300px; background-color: white; margin: 7px; border-radius: 5px;">
+                        <img src="event3.jpg" alt="" width="300px" style="border-top-left-radius: 5px; border-top-right-radius: 5px;">
+                        <h1 style="font-size: 22px; margin-left: 40px; margin-top: 25px;">
+                            Mohan Babu University Shines Bright: 32nd Annual Day Celebrations
+                        </h1>
+                        <p style="margin-left: 40px; font-size: 15px; color: #d10910; margin-top: 20px;">READ MORE >></p>
+                    </div>
+                </div>
+                <div style="background-color: white; height: 200px; width: 300px; border-radius: 5px; margin-left: 50px; padding: 20px;">
+                    <h1>Upcoming Events</h1><hr style="margin-top: -5px;"><br>
+                    <div style="font-size: 18px; display: flex;" class="h">
+                        <div>
+                        <span style="color: #d10910;">12 <span style="color: black; ">DEC</span></span>
+                        </div><div style="margin-left: 10px; margin-top: -4px; border: 1px solid black; font-size: 18px; padding: 5px;">
+                        International Conference on Data Science, Machine Learning & Applications
+                        </div>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: flex; margin-top: 30px;">
+            <div>
+            <h2 style="color: #d10910; font-size: 38px; margin-left: 150px;">Life @MBU</h2>
+            </div>
+            <div>
+                <div style="width: 150px; text-align: center; margin-left: 900px;">
+                    <p style="background-color: #FECC16; padding: 15px; border-radius: 5px; margin-top: 30px;"><b>View all</b></p>
+                </div>  
+            </div>
+        </div>
+        <div style="margin-top: 20px;">
+        <div style="display: flex;">
+            <div class="gal">
+                <img src="gallery1.jpg" alt="a" class="gallery">
+            </div>
+            <div class="gal">
+                <img src="gallery2.jpeg" alt="b" class="gallery">
+            </div>
+            <div class="gal">
+                <img src="gallery3.jpeg" alt="c" class="gallery">
+            </div>
+        </div>
+        <div style="display: flex;">
+            <div class="gal">
+                <img src="gallery4.jpeg" alt="a" class="gallery">
+            </div>
+            <div class="gal">
+                <img src="gallery5.jpeg" alt="b" class="gallery">
+            </div>
+            <div class="gal">
+                <img src="gallery6.jpeg" alt="c" class="gallery">
+            </div>
+        </div>
+        <div style="display: flex;">
+            <div class="gal">
+                <img src="gallery7.jpeg" alt="a" class="gallery">
+            </div>
+            <div class="gal">
+                <img src="gallery8.jpeg" alt="b" class="gallery">
+            </div>
+            <div class="gal">
+                <img src="gallery9.jpeg" alt="c" class="gallery">
+            </div>
+        </div>
+        </div>
+        <div style="background-color: #FECC16; display: flex; justify-content: space-around; width: 1300px; height: 120px; margin-top: 40px; position: absolute; z-index: 2; margin-left: 100px;">
+            <div style="margin-top: 20px;">
+                <h1>
+                    32 Years of Unwavering Trust, 1 Universe of Possibilities
+                </h1>
+            </div>
+            <div style="margin-top: 20px; color: white;">
+                <div style="width: 150px; text-align: center;">
+                    <p style="background-color:#d10910; padding: 15px; border-radius: 5px;"><b>Apply Now</b></p>
+                </div>  
+            </div>
+        </div>
+        <div style="margin-top: 100px;">
+            <img src="pharma.jpeg" alt="" width="1519px" height="800px" style="margin-left: -8px;">
+            <div style="width: 1519px; height: 800px; background-color: rgba(0, 0, 0, 0.895); margin-top: -805px; margin-left: -8px; opacity: 0.9; z-index: 1;">
+            </div>
+        </div>
+        <div>
+            <div style="display: flex; justify-content: space-around; color: white;margin-top: -700px; position: absolute;">
+            <div>
+                <img src="mbu logo.webp" alt="mbu" width="200px" style="margin-left: 120px;">
+                <h1 style="margin-left: 160px; margin-top: 30px;">Follow us</h1>
+                <div style="margin-left: 140px;">
+                    <i class="fa-brands fa-facebook-f" style="color: white; margin-left: 20px;"></i>
+                    <i class="fa-brands fa-instagram" style="color: white; margin-left: 20px;"></i>
+                    <i class="fa-brands fa-linkedin-in" style="color: white; margin-left: 20px;"></i>
+                    <i class="fa-brands fa-twitter" style="color: white; margin-left: 20px;"></i>
+                </div>
+
+            </div>
+            <div style="margin-left: 300px;">
+                <p class="ab" style="margin-bottom: 25px;"><b>Quick Links</b></p>
+                <p class="ab">About us</p>
+                <p class="ab">Admissions</p>
+                <p class="ab">Academics</p>
+                <p class="ab">Placements</p>
+                <p class="ab">Leadership</p>
+            </div>
+            <div style="margin-left: 150px;">
+                <p class="ab" style="margin-bottom: 25px;"><b>Useful Links</b></p>
+                <p class="ab">Central Library</p>
+                <p class="ab">Media</p>
+                <p class="ab">Careers</p>
+                <p class="ab">Alumni</p>
+                <p class="ab">Gallery</p>
+            </div>
+            <div style="margin-left: 150px;">
+                <p class="ab" style="margin-bottom: 25px;"><b>Contact us</b></p>
+                <p class="ab">Sree Sainath Nagar, Tirupati,<br>
+                    Chittoor (District), AP - 517102.</p>  
+                <p class="ab">+91 9469465946</p>
+                <p class="ab">admissions@mbu.asia</p>
+            </div>
+            </div>
+            <div style="position: absolute; margin-top: -400px; color: white; margin-left: 160px;">
+                <h2 style="color: #FECC16; font-size: 30px;">Disclosures</h2>
+                <div style="display: flex;">
+                <div>
+                    <p class="ab">ABC Videos under NAD-ABC Scheme</p>
+                    <p class="ab">Academic Bank of Credits</p>
+                    <p class="ab">AIU Membership Letter</p>
+                    <p class="ab">Anti Ragging Policy</p>
+                    <p class="ab">Anti-Ragging Committee</p>
+                    <p class="ab">AP State Pvt University Act</p>
+                </div>
+                <div style="margin-left: 80px;">
+                    <p class="ab">AP State Gazette Notification</p>
+                    <p class="ab">AP State Pvt University Act-Amendment</p>
+                    <p class="ab">DigiLocker NAD Portal</p>
+                    <p class="ab">e-Samadhaan</p>
+                    <p class="ab">Grievance Redressal of Students Policy</p>
+                </div>
+                <div style="margin-left: 80px;">
+                    <p class="ab">National Scholarship Portal</p>
+                    <p class="ab">Refund Policy</p>
+                    <p class="ab">Shodhganga</p>
+                    <p class="ab">Shodhgangotri</p>
+                    <p class="ab">Mohan Babu University Statutes</p>
+                </div>
+                <div style="margin-left: 80px;">
+                    <p class="ab">UGC Proforma</p>
+                    <p class="ab">UGC Annexures</p>
+                    <p class="ab">UGC Approval Letter</p>
+                    <p class="ab">Privacy Policy</p>
+                    <p class="ab">Terms and Conditions</p>
+                </div>
+                </div>
+            </div>
+            <div style="background-color: #d10910; padding: 20px; position: absolute; width: 1479px; margin-left: -8px; color: white; text-align: center; font-size: 18px; margin-top: -40px;">
+                © 2024 Mohan Babu University (MBU). All Rights Reserved.
+            </div>
+        </div>       
+</body>
+</html>
